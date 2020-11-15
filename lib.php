@@ -60,7 +60,7 @@ function wordToAlina(string $input){
     foreach($chars as $char){
         if(in_array($char, $keys)){
             $textout .= " " . $transkey_de[$char];
-        break;
+        continue 1;
     }
     $textout .= $char;
     }
