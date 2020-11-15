@@ -29,6 +29,8 @@ $transkey_de = [
 
 /**
  * Replaces all chars in a string with Alina-Colours
+ * 
+ * @param string $input Input text as string
  * @return string String with replaced chars
  */
 function convertToColour(string $input){
@@ -41,6 +43,13 @@ function convertToColour(string $input){
     return $output;
 }
 
+
+/**
+ * Convert a single Word into Alina-Colours
+ * 
+ * @param string $input a single word to convert
+ * @return string converted string with colours
+ */
 function wordToAlina(string $input){
     global $transkey_de;
     $chars = str_split($input, 1);
