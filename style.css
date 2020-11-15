@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+body, html{
+    width: 100%;
+    font-family: 'Slabo 13px', serif;
+    background-color: rgb(9, 9, 61);
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: rgb(255, 153, 0);
+}
+
+textarea{
+    background-color: rgb(7, 34, 75);
+    color: white;
+}
+
+.btn-primary{
+    background-color: rgb(17, 15, 153);
+}
+
+#head-row{
+    margin-top: 4em;
+}
