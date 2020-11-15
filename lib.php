@@ -30,7 +30,7 @@ $transkey_de = [
 /**
  * Replaces all chars in a string with Alina-Colours
  * 
- * @param string  $input Input text as string
+ * @param string $input  Input text as string
  * 
  * @return string  String with replaced chars
  */
